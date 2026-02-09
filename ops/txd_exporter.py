@@ -195,7 +195,7 @@ class txd_exporter:
                 print(f"Exporting textures for object '{obj.name}' to {file_name}")
 
                 # Export textures used by this specific object only
-                self.export_txd([obj], file_name)
+                self.export_textures([obj], file_name)
                 selected_objects_num += 1
 
             print(f"Mass export completed for {selected_objects_num} objects")
